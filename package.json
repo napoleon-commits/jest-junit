@@ -7,7 +7,8 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "test:coverage": "npm run test:unit -- --json --outputFile=coverage/jest-results.json --coverage=true"
+    "test:coverage": "npm run test:unit -- --json --outputFile=coverage/jest-results.json --coverage=true",
+    "jest:junit": "jest"
   },
   "dependencies": {
     "core-js": "^3.6.5",
